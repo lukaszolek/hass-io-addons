@@ -24,5 +24,6 @@
     "6720/tcp": 6720,
     "3671/udp": 3671
   },
-  "auto_uart": true
+  "auto_uart": true,
+  "devices": ["/dev/ttyACM0:/dev/ttyACM0:rwm"]
 }
