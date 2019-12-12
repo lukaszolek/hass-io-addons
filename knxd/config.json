@@ -29,5 +29,8 @@
       "3671/tcp": "Required by knx interface and being able to access the KNX bus via ETS"
   },
   "auto_uart": true,
-  "hassio_role": "admin"
+  "hassio_role": "admin",
+  "devices": [
+    "/dev/bus/usb:/dev/bus/usb:rwm"
+  ]
 }
